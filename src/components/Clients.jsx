@@ -6,7 +6,7 @@ import client3 from "./../../public/client3.jpg";
 const Clients = () => {
   return (
     <div className="pb-32 flex flex-col items-center gap-20 relative">
-      <h1 className="text-center text-zinc-50 text-5xl">Clients</h1>
+      <h1 className="text-center font-medium text-zinc-50 text-5xl">Clients</h1>
       <div className="flex flex-col s:flex-row gap-8 max-w-7xl text-center">
         <div>
           <img src={client1} alt="client 1" className="rounded shadow mb-16" />

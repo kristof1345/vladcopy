@@ -4,7 +4,7 @@ import vlad from "./../../public/vlad.jpg";
 const Who = () => {
   return (
     <div className="pb-32 flex flex-col items-center gap-20">
-      <h1 className="text-center text-zinc-50 text-5xl">
+      <h1 className="text-center font-medium text-zinc-50 text-5xl">
         My name is Vladimir Gulyashki
       </h1>
       <div className="flex gap-8 flex-col s:flex-row">
