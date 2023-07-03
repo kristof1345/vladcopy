@@ -6,13 +6,13 @@ const Footer = () => {
     <div className="pb-16 text-center relative">
       <div className="absolute blue_gradient w-96 h-96 -left-48 -top-52 -z-10"></div>
       <div className="pb-24">
-        <h1 className="text-zinc-50 text-5xl font-semibold pb-5">
+        <h1 className="text-zinc-50 s:text-5xl text-4xl font-semibold pb-5">
           Grow your Email List
         </h1>
-        <h1 className="text-zinc-50 text-5xl font-semibold pb-5">
+        <h1 className="text-zinc-50 s:text-5xl text-4xl font-semibold pb-5">
           Grow your Brand
         </h1>
-        <h1 className="text-zinc-50 text-5xl font-semibold">
+        <h1 className="text-zinc-50 s:text-5xl text-4xl font-semibold">
           Grow your Pocket
         </h1>
       </div>
