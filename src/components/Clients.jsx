@@ -8,7 +8,7 @@ const Clients = () => {
     <div className="s:pb-36 pb-28 flex flex-col items-center gap-20 relative">
       <h1 className="text-center font-medium text-zinc-50 text-5xl">Clients</h1>
       <div className="flex flex-col s:flex-row gap-8 max-w-7xl text-center">
-        <div className="s:pb-0 pb-10">
+        <div className="s:pb-0 pb-16">
           <img src={client1} alt="client 1" className="rounded shadow mb-16" />
           <a
             href="https://twitter.com/tomas_attt"
@@ -18,7 +18,7 @@ const Clients = () => {
             Thomas's Twitter
           </a>
         </div>
-        <div className="s:pb-0 pb-10">
+        <div className="s:pb-0 pb-16">
           <img src={client2} alt="client 2" className="rounded shadow  mb-16" />
           <a
             href="https://twitter.com/ewritingmastery"
@@ -28,7 +28,7 @@ const Clients = () => {
             Brett's Twitter
           </a>
         </div>
-        <div className="s:pb-0 pb-10">
+        <div className="s:pb-0 pb-8">
           <img src={client3} alt="client 2" className="rounded shadow  mb-16" />
           <a
             href="https://twitter.com/Andrey_Shche"

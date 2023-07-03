@@ -7,7 +7,7 @@ const Who = () => {
       <h1 className="text-center font-medium text-zinc-50 s:text-5xl text-4xl leading-normal">
         My name is <br className="s:hidden block" /> Vladimir Gulyashki
       </h1>
-      <div className="flex gap-8 flex-col s:flex-row">
+      <div className="flex s:gap-8 gap-11 flex-col s:flex-row">
         <div className="flex justify-center">
           <img
             src={vlad}
