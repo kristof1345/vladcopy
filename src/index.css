@@ -11,7 +11,7 @@
 body {
   background: #151227;
   background: linear-gradient(30deg, #151227 65%, #192848 100%);
-  padding: 0 15px;
+  padding: 0 0;
 }
 
 #root {
@@ -38,4 +38,10 @@ body {
 .btn:hover {
   color: white;
   background-color: transparent;
+}
+
+@media (max-width: 400px) {
+  #root {
+    padding: 0 15px;
+  }
 }

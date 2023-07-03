@@ -5,7 +5,7 @@ import client3 from "./../../public/client3.jpg";
 
 const Clients = () => {
   return (
-    <div className="pb-32 flex flex-col items-center gap-20 relative">
+    <div className="pb-36 flex flex-col items-center gap-20 relative">
       <h1 className="text-center font-medium text-zinc-50 text-5xl">Clients</h1>
       <div className="flex flex-col s:flex-row gap-8 max-w-7xl text-center">
         <div>

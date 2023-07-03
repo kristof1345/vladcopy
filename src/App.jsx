@@ -1,8 +1,9 @@
-import { useState } from "react";
 import Jumbotron from "./components/Jumbotron";
 import Who from "./components/Who";
 import Testimonials from "./components/Testimonials";
 import Clients from "./components/Clients";
+import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Who />
       <Testimonials />
       <Clients />
+      <FAQ />
+      <Footer />
     </div>
   );
 }
